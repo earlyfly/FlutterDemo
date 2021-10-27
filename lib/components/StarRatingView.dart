@@ -11,8 +11,8 @@ class StarRatingView extends StatefulWidget {
     this.totalStar = 5,
     this.starRating = 0,
     this.starSize = 20,
-    Color unSelectColor,
-    Color selectColor,
+    Color? unSelectColor,
+    Color? selectColor,
   })  : unSelectColor = unSelectColor ?? Colors.grey,
         selectColor = selectColor ?? Colors.orange;
 
@@ -80,7 +80,7 @@ class _StarRatingViewState extends State<StarRatingView> {
 class StarRectClipper extends CustomClipper<Rect> {
   final double clipScale;
 
-  StarRectClipper({this.clipScale});
+  StarRectClipper({required this.clipScale});
 
   @override
   Rect getClip(Size size) {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutterapptest/components/DashLine.dart';
-import 'package:flutterapptest/components/StarRatingView.dart';
+import 'package:flutter_test_20211027/components/DashLine.dart';
+import 'package:flutter_test_20211027/components/StarRatingView.dart';
 
 class HomePage extends StatefulWidget {
   @override
